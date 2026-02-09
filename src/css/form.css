@@ -1,0 +1,38 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feedback-form button {
+  padding: 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.feedback-form button:hover {
+  background: #333;
+}
